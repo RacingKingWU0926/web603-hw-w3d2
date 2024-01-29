@@ -33,3 +33,39 @@ $ npm run dev
 Click the button "Get Lists", you should be able to see data.
 
 ![app-start](screenshots/app-start.png)
+
+## Testing the Completed Application
+
+### 1. New Homepage
+
+![app-complete](screenshots/app-complete.png)
+
+### 2. Create List
+
+After clicking the "Create New List" button on the home page:
+
+![create-modal](screenshots/create-modal.png)
+
+After providing input and then clicking the "Create" button on the modal:
+
+![create-result](screenshots/create-result.png)
+
+### 3. Update List
+
+After clicking the "Update" button for a specific item:
+
+![update-modal](screenshots/update-modal.png)
+
+After providing input and then clicking the "Update" button on the modal:
+
+![update-result](screenshots/update-result.png)
+
+### 4. Delete List
+
+After clicking the "Delete" button for a specific item:
+
+![delete-modal](screenshots/delete-modal.png)
+
+After providing input and then clicking the "Create" button on the modal:
+
+![delete-result](screenshots/app-complete.png)
