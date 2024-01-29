@@ -36,7 +36,15 @@ function CreateList(props) {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>Close</Button>
-          <Button variant="primary" onClick={handleClose}>Create</Button>
+          <Button
+            variant="primary"
+            onClick={() => {
+              handleClose();
+              props.createList();
+            }}
+          >
+            Create
+          </Button>
         </Modal.Footer>
       </Modal>
     </React.Fragment>
